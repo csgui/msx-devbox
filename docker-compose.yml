@@ -1,0 +1,14 @@
+services:
+  openmsx:
+    build: .
+    container_name: openmsx
+    ports:
+      - "6080:6080" # noVNC web UI
+      - "5900:5900" # optional VNC port
+    environment:
+      DISPLAY: ":99"
+    volumes:
+      - ./roms:/home/dev/roms # Your MSX disks
+      - ./systemroms:/home/dev/.openMSX/share/systemroms # BIOS ROMs
+    stdin_open: true
+    tty: true

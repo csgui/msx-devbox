@@ -2,6 +2,8 @@
 
 A complete MSX development environment packaged in Docker. Includes openMSX 21.0 emulator compiled with GCC 13, SDCC Z80 compiler, hex2bin conversion tools and browser-accessible VNC interface. Build and test MSX software without local installation hassles.
 
+<img width="1386" height="1063" alt="image" src="https://github.com/user-attachments/assets/d8e33804-04c2-4240-a3f0-ccabbbd22734" />
+
 ## Features
 
 - 🎮 **openMSX 21.0** - Full-featured MSX emulator

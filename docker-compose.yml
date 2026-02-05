@@ -4,10 +4,10 @@ services:
     container_name: openmsx
     ports:
       - "6080:6080"
+      - "5900:5900"
     environment:
       DISPLAY: ":99"
     volumes:
-      - ./src:/home/dev/src
       - ./roms:/home/dev/roms
       - ./systemroms:/home/dev/.openMSX/share/systemroms
     stdin_open: true
